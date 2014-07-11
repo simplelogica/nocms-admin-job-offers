@@ -1,4 +1,8 @@
-module NoCms::Admin::JobOffers
-  class ApplicationController < ActionController::Base
+module NoCms
+  module Admin
+    module JobOffers
+      class ApplicationController < NoCms::Admin::ApplicationController
+      end
+    end
   end
 end
