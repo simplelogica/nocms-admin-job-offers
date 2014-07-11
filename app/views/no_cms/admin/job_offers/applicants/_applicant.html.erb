@@ -1,0 +1,25 @@
+<div class="block row">
+  <div class="b-title row">
+    <a href="#" class="btn-square ico-collapse-v js-collapse-block" title="Expand /Collapse"></a>
+
+    <p class='title row'>
+      <%= applicant.name %> (<%= applicant.created_at %>)
+    </p>
+  </div>
+  <div class='layout_fields'>
+    <div id="content_fields">
+      <div class="row">
+        <%= label_tag :name %>
+        <%= applicant.name %>
+      </div>
+      <div class="row">
+        <%= label_tag :position %>
+        <%= applicant.position %>
+      </div>
+      <div class="row">
+        <%= label_tag :message %>
+        <%= applicant.message %>
+      </div>
+    </div>
+  </div>
+</div>
