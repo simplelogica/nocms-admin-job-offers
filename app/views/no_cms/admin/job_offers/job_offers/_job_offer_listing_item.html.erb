@@ -3,5 +3,10 @@
   <%= link_to job_offer.title, edit_job_offer_path(job_offer)%>
   <div class="mo">
     <%= button_to '', job_offer_path(job_offer), method: :delete, class: "ico-mini-delete", title: t('.destroy') %>
+    <%= button_to job_offer_path(job_offer), method: :put, class: "ico-mini-show-hide", title: (job_offer.draft ? t('.show') : t('.hide')) do %>
+      <% fields_for job_offer do |f| %>
+        <%= f.hidden_field :draft, value: (job_offer.draft ? "0" : "1") %>
+      <% end %>
+    <% end %>
   </div>
 </li>
