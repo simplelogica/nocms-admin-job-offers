@@ -1,0 +1,32 @@
+en:
+  no_cms:
+    admin:
+      menu_items:
+        job_offers: Job offers
+      job_offers:
+        job_offers:
+          content_fields:
+            slug_tooltip: "This field will be appended to %{base} to build the url for this job_offer"
+          create:
+            success: "Job Offer %{title} has been created"
+            error: "Some error was found and Job offer %{title} couldn't be created"
+          destroy:
+            success: "Job Offer %{title} has been deleted"
+            error: "Some error was found and Job offer %{title} couldn't be deleted"
+          edit:
+            log_messages: "Job Offer %{title} loaded for editing"
+            submit: 'Send'
+          new:
+            submit: 'Send'
+          templates:
+            show: Default
+          job_offer_listing_item:
+            destroy: Remove
+            show: Show Job Offer
+            hide: Mark Job offer as draft
+          toolbar_right:
+            submit: Save
+            visit: Visit
+          update:
+            success: "Job Offer %{title} has been updated"
+            error: "Some error was found and Job offer %{title} couldn't be updated"

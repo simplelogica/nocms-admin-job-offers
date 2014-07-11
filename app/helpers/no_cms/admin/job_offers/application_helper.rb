@@ -1,4 +1,8 @@
-module NoCms::Admin::JobOffers
-  module ApplicationHelper
+module NoCms
+  module Admin
+    module JobOffers
+      module ApplicationHelper
+      end
+    end
   end
 end

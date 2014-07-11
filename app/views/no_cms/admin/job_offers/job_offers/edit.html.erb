@@ -1,0 +1,12 @@
+<% content_for :second_menu do %>
+  <%= render partial: 'job_offer_listing_item', collection: @job_offers, as: 'job_offer', layout: 'job_offer_listing', locals: { current: @job_offer } unless @job_offers.blank? %>
+<% end %>
+
+
+<%= no_cms_admin_form_for @job_offer do |f| %>
+  <%= render partial: 'no_cms/admin/shared/toolbar', locals: { f: f } %>
+  <div class="content">
+    <%= render 'no_cms/admin/shared/log_messages' %>
+    <%= render 'content_fields', f: f %>
+  </div>
+<% end %>
