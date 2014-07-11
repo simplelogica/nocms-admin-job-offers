@@ -4,6 +4,13 @@ en:
       menu_items:
         job_offers: Job offers
       job_offers:
+        applicants:
+          applicant:
+            message: Message
+            name: Name
+            position: Last position
+          index:
+            applicants_title: Applicants
         job_offers:
           content_fields:
             slug_tooltip: "This field will be appended to %{base} to build the url for this job_offer"

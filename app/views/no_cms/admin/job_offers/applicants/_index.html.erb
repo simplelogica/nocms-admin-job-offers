@@ -1,0 +1,8 @@
+<div class="row has-children content_blocks_placeholder">
+  <div class="tool-bar-blocks">
+    <a href="#" class="btn-square ico-collapse-v js-collapse-all-children-blocks" title="Collapse all blocks"></a>
+    <label><%= t('.applicants_title') %></label>
+  </div>
+
+  <%= render partial: 'no_cms/admin/job_offers/applicants/applicant', collection: job_offer.applicants %>
+</div>
