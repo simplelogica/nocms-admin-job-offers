@@ -10,7 +10,7 @@ GIT
 
 GIT
   remote: https://github.com/simplelogica/nocms-job-offers.git
-  revision: 88270fc1aec15e2cc6c66f1450238732f83d87f4
+  revision: 2613a6e70799efcd1911aa898af24c155dc39f9a
   branch: master
   specs:
     nocms-job-offers (0.0.1)
@@ -22,7 +22,7 @@ GIT
 PATH
   remote: .
   specs:
-    nocms-admin-job_offers (0.0.1)
+    nocms-admin-job-offers (0.0.1)
       nocms-admin (~> 0.0, >= 0.0.1)
       nocms-job-offers (~> 0.0, >= 0.0.1)
       rails (~> 4.0, >= 4.0.0)
@@ -128,6 +128,6 @@ PLATFORMS
 
 DEPENDENCIES
   nocms-admin!
-  nocms-admin-job_offers!
+  nocms-admin-job-offers!
   nocms-job-offers!
   sqlite3
