@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
+gem "nocms-admin", git: 'https://github.com/simplelogica/nocms-admin.git', branch: 'master'
+gem "nocms-job-offers", git: 'https://github.com/simplelogica/nocms-job-offers.git', branch: 'master'
+
+
 # Declare your gem's dependencies in no_cms/admin/job_offers.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
