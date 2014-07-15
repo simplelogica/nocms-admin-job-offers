@@ -63,7 +63,7 @@ module NoCms::Admin::JobOffers
     end
 
     def job_offer_params
-      job_offer_params = params.require(:job_offer).permit(:title, :template, :slug, :body, :parent_id, :draft, :css_class, :css_id)
+      job_offer_params = params.require(:job_offer).permit(:title, :slug, :description)
     end
 
   end
